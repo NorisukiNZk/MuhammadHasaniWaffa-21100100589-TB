@@ -90,20 +90,6 @@
 				</textElement>
 				<text><![CDATA[Yth. Kepada Kantor Pelayanan Perbendaharaan Negara]]></text>
 			</staticText>
-			<staticText>
-				<reportElement x="14" y="64" width="174" height="20" uuid="97cc8d2a-910b-4cf6-a10f-cfe940a13cff"/>
-				<textElement>
-					<font size="11"/>
-				</textElement>
-				<text><![CDATA[di JAKARTA]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="408" y="0" width="40" height="20" uuid="d183cf70-404b-4f19-a64e-eb732b3b923e"/>
-				<textElement>
-					<font size="11"/>
-				</textElement>
-				<text><![CDATA[Jakarta,]]></text>
-			</staticText>
 			<textField pattern="dd MMMMM yyyy">
 				<reportElement x="449" y="0" width="100" height="20" uuid="5255a54b-23e7-425c-a15f-644d5b7da149"/>
 				<textElement>
