@@ -20,7 +20,7 @@ public class input {
 				String username = "root";
 				String password = "";
 				
-				DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+				DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 				koneksi = DriverManager.getConnection(url,username,password);
 			}
 			catch(Exception ex)

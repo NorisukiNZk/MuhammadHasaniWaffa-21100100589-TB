@@ -30,14 +30,13 @@ public class menuutama extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         getContentPane().setLayout(null);
 
-        jButton7.setBackground(new java.awt.Color(255, 255, 255));
-        jButton7.setForeground(new java.awt.Color(0, 0, 0));
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/report.png"))); // NOI18N
         jButton7.setText("LAP. PEGAWAI");
         jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -49,8 +48,6 @@ public class menuutama extends javax.swing.JFrame {
         getContentPane().add(jButton7);
         jButton7.setBounds(660, 210, 160, 50);
 
-        jButton8.setBackground(new java.awt.Color(255, 255, 255));
-        jButton8.setForeground(new java.awt.Color(0, 0, 0));
         jButton8.setText("KELUAR");
         jButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -61,8 +58,6 @@ public class menuutama extends javax.swing.JFrame {
         getContentPane().add(jButton8);
         jButton8.setBounds(660, 340, 160, 50);
 
-        jButton6.setBackground(new java.awt.Color(255, 255, 255));
-        jButton6.setForeground(new java.awt.Color(0, 0, 0));
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/newspaper.png"))); // NOI18N
         jButton6.setText("Arsip");
         jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -74,16 +69,12 @@ public class menuutama extends javax.swing.JFrame {
         getContentPane().add(jButton6);
         jButton6.setBounds(660, 270, 160, 50);
 
-        jButton5.setBackground(new java.awt.Color(255, 255, 255));
-        jButton5.setForeground(new java.awt.Color(0, 0, 0));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/exclamation.png"))); // NOI18N
         jButton5.setText("TENTANG");
         jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         getContentPane().add(jButton5);
         jButton5.setBounds(10, 390, 150, 50);
 
-        jButton3.setBackground(new java.awt.Color(255, 255, 255));
-        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/manager (2).png"))); // NOI18N
         jButton3.setText("INPUT JABATAN");
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -95,8 +86,6 @@ public class menuutama extends javax.swing.JFrame {
         getContentPane().add(jButton3);
         jButton3.setBounds(10, 270, 150, 50);
 
-        jButton4.setBackground(new java.awt.Color(255, 255, 255));
-        jButton4.setForeground(new java.awt.Color(0, 0, 0));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/money-bag (1).png"))); // NOI18N
         jButton4.setText("INPUT GAJI");
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -108,8 +97,6 @@ public class menuutama extends javax.swing.JFrame {
         getContentPane().add(jButton4);
         jButton4.setBounds(10, 330, 150, 50);
 
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/team.png"))); // NOI18N
         jButton2.setText(" INPUT DATA ");
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -130,6 +117,10 @@ public class menuutama extends javax.swing.JFrame {
         jLabel5.setText("MENU");
         getContentPane().add(jLabel5);
         jLabel5.setBounds(50, 150, 80, 30);
+
+        jPanel1.setBackground(new java.awt.Color(0, 51, 153));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(-20, 520, 850, 50);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/cover baru.png"))); // NOI18N
         getContentPane().add(jLabel1);
@@ -221,5 +212,6 @@ public class menuutama extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

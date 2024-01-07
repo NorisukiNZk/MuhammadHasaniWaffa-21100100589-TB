@@ -20,7 +20,7 @@ public ResultSet rr;
 
 public void Class () {
 try {
-    Class.forName("com.mysql.jdbc.Driver");
+    Class.forName("com.mysql.cj.jdbc.Driver");
     cc=DriverManager.getConnection("jdbc:mysql://localhost/gajipegawai","root","");
     System.out.println("koneksi sukses");
 }
